@@ -1,2 +1,4 @@
 # .gitignore
 tempCodeRunnerFile.py
+/.vs
+/.vscode
