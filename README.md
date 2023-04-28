@@ -16,7 +16,6 @@ Enter the following to install the necessary packages and run the Reversi game.
 pip install -r requirements.txt
 python Reversi.py
 ```
-
 ## Expectation
 
 Create a GUI for the game.
