@@ -69,7 +69,6 @@ class Game(object):
             try:
                 for _ in range(0, 3):
                     action = func_timeout(60, self.current_player.get_move, kwargs={'board': self.board})
-
                     if action == 'Q':
                         break
                     if action not in legal_actions:

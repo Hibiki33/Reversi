@@ -32,7 +32,12 @@ class Board(object):
                 if self.board[i][j] == 'O':
                     white_cnt += 1
         
-        return black_cnt - white_cnt
+        if black_cnt > white_cnt:
+            return 0, black_cnt - white_cnt
+        elif black_cnt < white_cnt:
+            return 1, white_cnt - black_cnt
+        else:
+            return 2, 0
 
     def is_on_board(self, i, j):
         return 0 <= i <= 7 and 0 <= j <= 7
