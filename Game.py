@@ -114,7 +114,7 @@ class Game(object):
                     break
 
         print('\n=====Game over!=====\n')
-        self.board.display(1)
+        self.board.display()
         self.print_winner(winner)
 
     def game_over(self):
