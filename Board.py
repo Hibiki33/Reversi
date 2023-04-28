@@ -126,7 +126,7 @@ class Board(object):
         return None
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     board = Board()
 
     for i in range(3):

@@ -34,7 +34,7 @@ class Roxanne(object):
                         return move
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     board = Board()
     board.board[3][5] = 'X'
     board.display()
