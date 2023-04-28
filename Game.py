@@ -123,6 +123,7 @@ class Game(object):
         is_over = len(b_list) == 0 and len(w_list) == 0 
         return is_over
 
+
 class SimGame(Game):
 
     def __init__(self, black_player, white_player, board=Board(), current_player=None):
